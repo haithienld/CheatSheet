@@ -39,7 +39,7 @@ sudo apt-get update
 
 sudo apt install python3-dev libffi-dev
 
-pip3 install zerorpc
+pip3 install zerorpc  #can insert --user
 #### Important
 sudo apt-get install python3-scipy python3-numpy python3-wheel
 
