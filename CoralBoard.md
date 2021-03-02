@@ -19,7 +19,7 @@ sudo chmod 777 mendel
 
 cd mendel
 
-sudo mkdir swapfile
+Dont use this line - sudo mkdir swapfile
 
 sudo dd if=/dev/mmcblk1 of=/media/mendel/swapfile bs=1M count=2048 oflag=append conv=notrunc
 
