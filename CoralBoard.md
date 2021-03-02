@@ -44,3 +44,5 @@ sudo apt-get install libopenblas-dev libatlas-base-dev libblas-dev
 sudo apt-get install libjasper-dev liblapack-dev libhdf5-dev
 sudo apt-get install protobuf-compiler
 
+#### If cannot use mdt shell please check connection between board and host. we can not using mdt shell when we use both wifi and OTG line
+
