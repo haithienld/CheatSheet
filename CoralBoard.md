@@ -3,8 +3,8 @@ a. Insert SD card
 b. Now get ID of SD card
 sudo fdisk -l
 
-c. So in my case, the SD card is /dev/mmcblk1
-Format disk
+c. So in my case, the SD card is /dev/mmcblk1   \
+Format disk    \
 sudo mkfs.ext4 /dev/mmcblk1
 
 
