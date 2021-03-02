@@ -21,17 +21,13 @@ cd mendel
 edit /etc/fstab \
 sudo nano /etc/fstab \ 
 Paste \
-
 /dev/mmcblk1 /media/mendel ext4 defaults 0 2   \
 Reboot \
 cd /media/mendel      \
 Dont use this line - sudo mkdir swapfile    \
-
-sudo dd if=/dev/mmcblk1 of=/media/mendel/swapfile bs=2M count=2048 oflag=append conv=notrunc
-
-sudo mkswap /media/mendel/swapfile
-
-sudo swapon /media/mendel/swapfile
+sudo dd if=/dev/mmcblk1 of=/media/mendel/swapfile bs=2M count=2048 oflag=append conv=notrunc \
+sudo mkswap /media/mendel/swapfile  \
+sudo swapon /media/mendel/swapfile \
 
 test: free -h
 
