@@ -7,21 +7,27 @@ c. So in my case, the SD card is /dev/mmcblk1
 Format disk
 sudo mkfs.ext4 /dev/mmcblk1
 
+
 #### Swapfile from https://github.com/goruck/edge-tpu-servers/blob/master/README.md 
 #### Make Swapfile
 cd /media/
 
 sudo mkdir mendel
 
-cd ../ 
-
 sudo chmod 777 mendel
 
 cd mendel
 
-Dont use this line - sudo mkdir swapfile
+edit /etc/fstab \
+sudo nano /etc/fstab \ 
+Paste \
 
-sudo dd if=/dev/mmcblk1 of=/media/mendel/swapfile bs=1M count=2048 oflag=append conv=notrunc
+/dev/mmcblk1 /media/mendel ext4 defaults 0 2 \
+Reboot \
+cd /media/mendel/
+Dont use this line - sudo mkdir swapfile \
+
+sudo dd if=/dev/mmcblk1 of=/media/mendel/swapfile bs=2M count=2048 oflag=append conv=notrunc
 
 sudo mkswap /media/mendel/swapfile
 
