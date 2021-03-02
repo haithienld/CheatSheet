@@ -7,7 +7,7 @@ c. So in my case, the SD card is /dev/mmcblk1
 Format disk
 sudo mkfs.ext4 /dev/mmcblk1
 
-#### Swapfile from https://github.com/goruck/edge-tpu-servers/blob/master/README.md
+#### Swapfile from https://github.com/goruck/edge-tpu-servers/blob/master/README.md 
 #### Make Swapfile
 cd /media/
 sudo mkdir mendel
