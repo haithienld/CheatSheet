@@ -62,3 +62,6 @@ export DISPLAY=:0.0
 https://stackoverflow.com/questions/25992088/linux-how-to-run-a-program-of-gtk-without-display-environment-gtk-warning
 ##### Need to see more zmq
 https://github.com/zeromq/pyzmq
+# CheatSheet
+Xoa mau xanh nen trong thu muc \
+sudo chmod 0775 -R mendel/
