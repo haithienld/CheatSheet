@@ -57,3 +57,5 @@ sudo apt-get install cmake gfortran libjpeg-dev libtiff-dev libgif-dev libavcode
 
 #### If cannot use mdt shell please check connection between board and host. we can not using mdt shell when we use both wifi and OTG line
 
+If Coral dont connect to Mornitor use
+export DISPLAY=:0.0
