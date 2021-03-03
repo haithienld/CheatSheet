@@ -59,3 +59,4 @@ sudo apt-get install cmake gfortran libjpeg-dev libtiff-dev libgif-dev libavcode
 
 If Coral dont connect to Mornitor use
 export DISPLAY=:0.0
+https://stackoverflow.com/questions/25992088/linux-how-to-run-a-program-of-gtk-without-display-environment-gtk-warning
