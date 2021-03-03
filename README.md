@@ -1,6 +1,6 @@
 
 ### Action Classification
-* [Learning Graph Convolutional Network for Skeleton-Based Human Action Recognition by Neural Searching] (https://arxiv.org/abs/1911.04131) Peng et al ., AAAI 2020
+* [Learning Graph Convolutional Network for Skeleton-Based Human Action Recognition by Neural Searching](https://arxiv.org/abs/1911.04131) Peng et al ., AAAI 2020
 * [TEA: Temporal Excitation and Aggregation for Action Recognition](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_TEA_Temporal_Excitation_and_Aggregation_for_Action_Recognition_CVPR_2020_paper.pdf) - Yan Li et al ., CVPR 2020
 * [Neural Graph Matching Networks for Fewshot 3D Action Recognition](http://openaccess.thecvf.com/content_ECCV_2018/papers/Michelle_Guo_Neural_Graph_Matching_ECCV_2018_paper.pdf) - M. Guo et al., ECCV2018.
 * [Temporal 3D ConvNets using Temporal Transition Layer](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w19/Diba_Temporal_3D_ConvNets_CVPR_2018_paper.pdf) - A. Diba et al., CVPRW2018.
