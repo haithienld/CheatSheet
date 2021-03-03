@@ -1,5 +1,6 @@
 
 ### Action Classification
+* [TEA: Temporal Excitation and Aggregation for Action Recognition](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_TEA_Temporal_Excitation_and_Aggregation_for_Action_Recognition_CVPR_2020_paper.pdf) - Yan Li et al ., CVPR 2020
 * [Neural Graph Matching Networks for Fewshot 3D Action Recognition](http://openaccess.thecvf.com/content_ECCV_2018/papers/Michelle_Guo_Neural_Graph_Matching_ECCV_2018_paper.pdf) - M. Guo et al., ECCV2018.
 * [Temporal 3D ConvNets using Temporal Transition Layer](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w19/Diba_Temporal_3D_ConvNets_CVPR_2018_paper.pdf) - A. Diba et al., CVPRW2018.
 * [Temporal 3D ConvNets: New Architecture and Transfer Learning for Video Classification](https://arxiv.org/abs/1711.08200) - A. Diba et al., arXiv2017.
@@ -12,8 +13,11 @@
 * [Two-Stream SR-CNNs for Action Recognition in Videos](http://wanglimin.github.io/papers/ZhangWWQW_CVPR16.pdf) - L. Wang et al, BMVC2016.
 * [Real-time Action Recognition with Enhanced Motion Vector CNNs](http://arxiv.org/abs/1604.07669) - B. Zhang et al, CVPR2016. [[code]](https://github.com/zbwglory/MV-release)
 * [Action Recognition with Trajectory-Pooled Deep-Convolutional Descriptors](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wang_Action_Recognition_With_2015_CVPR_paper.pdf) - L. Wang et al, CVPR2015. [[code]](https://github.com/wanglimin/TDD)
+* 
 
 ### Skeleton-Based Action Classification
+
+* [Semantics-guided neural networks for efficient skeleton-based human action recognition](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Semantics-Guided_Neural_Networks_for_Efficient_Skeleton-Based_Human_Action_Recognition_CVPR_2020_paper.pdf). Zhang et al., CVPR 2020
 * [Actional-Structural Graph Convolutional Networks for Skeleton-Based Action Recognition](http://openaccess.thecvf.com/content_CVPR_2019/html/Li_Actional-Structural_Graph_Convolutional_Networks_for_Skeleton-Based_Action_Recognition_CVPR_2019_paper.html) - M. Li et al., CVPR2019.
 * [An Attention Enhanced Graph Convolutional LSTM Network for Skeleton-Based Action Recognition](https://arxiv.org/abs/1902.09130) - C. Si et al., CVPR2019.
 * [View Adaptive Neural Networks for High Performance Skeleton-Based Human Action Recognition](https://ieeexplore.ieee.org/abstract/document/8630687) - P. Zhang et al., TPAMI2019.
@@ -47,6 +51,7 @@
 * [Action localization in videos through context walk](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Soomro_Action_Localization_in_ICCV_2015_paper.pdf) - K. Soomro et al, ICCV2015.
 
 ### Spatio-Temporal Action Detection
+
 * [A Better Baseline for AVA](https://arxiv.org/pdf/1807.10066.pdf) - R. Girdhar et al., ActivityNet Workshop, CVPR2018.
 * [Real-Time End-to-End Action Detection with Two-Stream Networks](https://arxiv.org/abs/1802.08362) - A. El-Nouby and G. Taylor, arXiv2018.
 * [Human Action Localization with Sparse Spatial Supervision](https://arxiv.org/pdf/1605.05197.pdf) - P. Weinzaepfel et al., arXiv2017.
