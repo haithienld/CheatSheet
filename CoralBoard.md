@@ -54,13 +54,23 @@ wget -O opencv.zip https://github.com/opencv/opencv/archive/4.5.0.zip  \
 wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.5.0.zip  \
 
 unzip opencv.zip \
-unzip opencv_contrib.zip 
+unzip opencv_contrib.zip \
+cd /media/mendel/opencv-4.5.0 \
+mkdir build \
+cd build
 
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D ENABLE_NEON=ON -D ENABLE_TBB=ON \
 -D ENABLE_IPP=ON -D WITH_OPENMP=ON -D WITH_CSTRIPES=OFF -D WITH_OPENCL=ON \
 -D BUILD_TESTS=OFF -D INSTALL_PYTHON_EXAMPLES=OFF D BUILD_EXAMPLES=OFF \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
 -D OPENCV_EXTRA_MODULES_PATH=/media/mendel/opencv_contrib-4.5.0/modules/ ..
+
+make \
+sudo make install
+
+# Rename binding. \
+$ cd /usr/local/lib/python3.7/dist-packages/cv2/python-3.7
+$ sudo mv cv2.cpython-37m-aarch64-linux-gnu.so cv2.so
 
 #### Install lib
 sudo apt-get update
