@@ -37,6 +37,7 @@ vm.swappiness=10
 #### Install zerorpc
 sudo apt-get update
 
+sudo nano ~/.bashrc -->  export PATH=$PATH:/home/mendel/.local/bin:/sbin
 sudo apt install python3-dev libffi-dev
 
 pip3 install zerorpc  #can insert --user
