@@ -14,7 +14,7 @@ cd /media/
 
 sudo mkdir mendel
 
-sudo chmod 777 mendel
+sudo chmod a+rwx mendel or chmod 777 
 
 cd mendel
 
