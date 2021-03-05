@@ -69,4 +69,4 @@ sudo chmod 0775 -R mendel/
 ### Tinker Edge T 
 Reflash: sudo reboot-bootloader 2 times \
 Connect by ssh: sudo /etc/ssh/sshd_config --> PasswordAuthentication no --> yes
-Pas
+https://chtseng.wordpress.com/2020/09/10/asus%E7%9A%84ai%E9%96%8B%E7%99%BC%E6%9D%BF%EF%BC%9Atinker-edge-t-board%E4%BB%8B%E7%B4%B9/
