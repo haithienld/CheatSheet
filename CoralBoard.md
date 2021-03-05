@@ -37,7 +37,8 @@ vm.swappiness=10
 #### Install zerorpc
 sudo apt-get update
 
-sudo nano ~/.bashrc -->  export PATH=$PATH:/home/mendel/.local/bin:/sbin
+sudo nano ~/.bashrc \
+export PATH=$PATH:/home/mendel/.local/bin:/sbin \
 sudo apt install python3-dev libffi-dev
 
 pip3 install zerorpc  #can insert --user
@@ -46,8 +47,7 @@ sudo apt-get install python3-scipy python3-numpy python3-wheel
 
 ##### pip3 install --upgrade pip setuptools #important 
 ##### python3 -m pip install --upgrade --force-reinstall pip --user 
-export PATH=$PATH:$HOME/.local/bin
-source ~/.bashrc
+
 #### Plz view the link https://github.com/goruck/edge-tpu-servers/blob/master/README.md and OpenCV 4.4.5 https://qengineering.eu/install-opencv-4.5-on-raspberry-pi-4.html
 #### Install lib
 sudo apt-get update
